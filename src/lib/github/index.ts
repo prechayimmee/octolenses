@@ -1,0 +1,1 @@
+export { fetchTrendingRepos } from './trending';
