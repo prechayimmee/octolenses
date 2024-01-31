@@ -5,6 +5,7 @@
   "version": "<version>",
   "short_name": "OctoLenses Browser Extension",
   "description": "Watch your repos and discover awesome things directly from your New Tab page.",
+<<<<<<< HEAD
   "permissions": ["identity"],
   "host_permissions": [
     "*://*.github.com/*",
@@ -13,6 +14,11 @@
   ],
   "chrome_url_overrides": {
     "newtab": "index.html"
+=======
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "scripts": ["background.js"]
+>>>>>>> origin/32/chrome-storage-instead-of-local-storage
   },
   "background": {
     "service_worker": "service_worker/index.js"
